@@ -1,0 +1,23 @@
+{
+    "name": "moxuandi/yii2-kindeditor",
+    "description": "yii2-kindeditor-description",
+    "homepage": "https://github.com/moxuandi/yii2-kindeditor",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","kindeditor","在线编辑器","html编辑器"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moxuandi",
+            "email": "1104984259@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "moxuandi/yii2-helper": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "moxuandi\\kindeditor\\": ""
+        }
+    }
+}

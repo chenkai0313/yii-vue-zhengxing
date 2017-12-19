@@ -1,0 +1,22 @@
+{
+    "name": "moxuandi/yii2-zui",
+    "description": "zui-description",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","zui"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moxuandi",
+            "email": "1104984259@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "moxuandi/yii2-helper": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "moxuandi\\zui\\": ""
+        }
+    }
+}

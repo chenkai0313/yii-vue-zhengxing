@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta id=keywords name=keywords content=""><meta id=description name=description content=""><script type=text/javascript src="http://api.map.baidu.com/api?v=2.0&ak=piXQ5CgHFqEefqCVbhhBFfe6HjF7l4zW"></script><script type=text/javascript src=https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js></script><title id=title></title><link href=/static/css/app.1f73fcb7764933d9498567d7a94ee6e0.css rel=stylesheet></head><style type=text/css>*{margin: 0;padding: 0;font-family: "Microsoft YaHei"}
+    a{text-decoration: none;color: #333}
+    a:hover{color: #333}
+    a:visited{color: #333}
+    input,textarea, button{border: none;outline: none;background: none}
+  	html{height: 100%;font-size: 20px;}
+  	body{min-height: 100%;position: relative;}</style><body><div id=app></div><script type=text/javascript src=/static/js/manifest.4e601c73fcf7a5e786d6.js></script><script type=text/javascript src=/static/js/vendor.53fa7b69058f72f72511.js></script><script type=text/javascript src=/static/js/app.cc4cbe91d735294dbfe6.js></script></body></html><script type=text/javascript>$(function(){
+    var host = window.location.host
+    $.ajax({
+      type: 'GET',
+      url: 'http://' + host +'/frontend/web/index.php?r=index%2Ffooter',
+      success: function(res){
+        let data = res.data
+        $('#description').attr('content', data.web_seo)
+        $('#keywords').attr('content', data.web_seo)
+        $('#title').html(data.webname)
+      },
+      error: function(res) {
+        console.log(res)
+      }
+    })
+  })</script>

@@ -1,0 +1,21 @@
+{
+    "name": "moxuandi/yii2-helper",
+    "description": "yii2-helper-description",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","helper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moxuandi",
+            "email": "1104984259@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "moxuandi\\helper\\": ""
+        }
+    }
+}

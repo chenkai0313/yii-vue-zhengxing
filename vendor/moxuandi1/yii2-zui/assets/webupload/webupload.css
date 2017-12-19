@@ -1,0 +1,11 @@
+.uploader{ margin-bottom: 0;}
+.uploader .placeholder{ margin: 10px; border: 3px dashed #e6e6e6; min-height: 350px; padding-top: 178px; text-align: center; background: url(image.png) center 93px no-repeat; color: #ccc; font-size: 18px; position: relative;}
+.uploader .placeholder button{font-size: 18px;background: #00b7ee; border: 0; border-radius:3px;line-height: 44px;padding: 0 30px;color: #fff;display: inline-block;margin: 0 auto 20px;cursor: pointer;}
+.uploader .placeholder button:hover{background: #00a2d4;}
+.uploader .placeholder p{ margin: 0;}
+.uploader-files, .file-list{ min-height: 0; margin: 0;}
+.uploader-files .file{ margin-left: 0; margin-top: 0;}
+.uploader .statusBar{ position: relative; height: 63px; border-top: 1px solid #dadada;line-height: 63px; vertical-align: middle;}
+.uploader .statusBar .info{ display: inline-block; font-size: 14px; color: #666;}
+.uploader .statusBar .btns{ position: absolute; top: 10px; right: 20px; line-height: 40px;}
+
