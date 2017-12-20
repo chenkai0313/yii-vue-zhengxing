@@ -15,6 +15,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 header('Access-Control-Allow-Methods: GET, POST, PUT,DELETE');
 header('Access-Control-Allow-Credentials: true');
 class IndexController extends Controller {
+//    csrf
       public $enableCsrfValidation = false;
       public $enableCrossValidation = true;
       public $enableRawBodyValidation = true;
